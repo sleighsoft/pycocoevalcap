@@ -1,7 +1,7 @@
 from distutils.core import setup
 
-setup(name='pycocotoolseval',
+setup(name='pycocoevalcap',
       version='1.0',
-      packages=['pycocotoolseval'],
-      package_dir={'': 'pycocotoolseval'}
-     )
+      packages=['pycocoevalcap'],
+      package_dir={'pycocoevalcap': 'pycocoevalcap'}
+      )
